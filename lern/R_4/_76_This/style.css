@@ -1,0 +1,11 @@
+button {
+    width: 250px;
+    height: 50px;
+    color: aqua;
+    background-color: blue;
+    cursor: pointer;
+}
+
+.green {
+    background-color: green;
+}

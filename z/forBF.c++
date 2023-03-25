@@ -6,8 +6,6 @@
 
 {"Майск-Энергетик", {{"TOU_train_9", "Новоприваловка"}, {"TOU_train_4", "Ульяновск"}, {"TOU_train_10", "Троицк"}, {"TOU_train_15", "Мазаевка-40к"}, {"TOU_train_16", "Северный порт"}, {"TOU_train_17", "Лютск"}, {"TOU_train_18", "Дачный"}, {"TOU_train_19", "Энергетик"}, {"TOU_train_17", "Лютск"}, {"TOU_train_16", "Северный порт"}, {"TOU_train_15", "Мазаевка-40к"}, {"TOU_train_10", "Троицк"}, {"TOU_train_4", "Ульяновск"}, {"TOU_train_9", "Новоприваловка"}, {"TOU_train_20", "Майск"}}, true},
 
-[] call gagarin_trains_fnc_init_bus;
-[] call gagarin_trains_fnc_postInit;
-[] call gagarin_trains_fnc_init_train;
+
 
 {"TOU_train_20", "Майск"}

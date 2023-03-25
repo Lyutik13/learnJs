@@ -43,7 +43,7 @@ const personalMovieDB = {
 
 function remembeMyFilms() {
   for (let i = 0; i < 2; i++) {
-    const endFilm = prompt("Один из последних просмотренных фильмов?", "");
+    const endFilm = prompt("Один из последних просмотренных фильмов?", "").trim();
     const raiting = +prompt("На сколько оцените его с 1 до 5?", "");
 
     if (
@@ -63,7 +63,7 @@ function remembeMyFilms() {
   }
 }
 
-// remembeMyFilms();
+remembeMyFilms();
 
 function detectPersonalLevel() {
   if (personalMovieDB.count < 10) {
